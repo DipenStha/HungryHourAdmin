@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<head>
+    <title>User</title>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 80%;
+            margin-left: 130px;
+            margin-right: 20px;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+        #edit{
+            width: 90px;
+            height: 30px;
+            background-color: lightseagreen;  
+            border-radius: 10px;
+        }
+        #delete{
+            width: 90px;
+            height: 30px;
+            background-color: red;
+            border-radius: 10px;
+        }
+        .button{
+            padding: 5px 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style = "background-color: bisque;">
+<div style="text-align:center; padding-top:10%; ">
+    <p style="font-size: 30px; font-weight: bold; text-align: left; margin-left: 150px;">Users</p>
+    <table>
+        <tr>
+          <th>User id</th>
+          <th>Username</th>
+		  <th>password</th>
+          <th></th>
+		  <th></th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>amarkhanal@gmail.com</td>
+		  <td>hungryhour123</td>
+          <td><button class="btn" id="edit"><i class="fa fa-pencil"></i>Edit</button>
+              <button class="btn" id="delete"><i class="fa fa-trash"></i>Delete</button>
+          </td>
+        </tr>
+        <tr>
+			<td>2</td>
+			<td>harithada@gmail.com</td>
+			<td>hungryhour124</td>
+			<td><button class="btn" id="edit"><i class="fa fa-pencil"></i>Edit</button>
+				<button class="btn" id="delete"><i class="fa fa-trash"></i>Delete</button>
+			</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>kumaracharya@gmail.com</td>
+			<td>hungryhour124</td>
+			<td><button class="btn" id="edit"><i class="fa fa-pencil"></i>Edit</button>
+				<button class="btn" id="delete"><i class="fa fa-trash"></i>Delete</button>
+			</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>dip[endrashrestha@gmail.com</td>
+			<td>hungryhour125</td>
+			<td><button class="btn" id="edit"><i class="fa fa-pencil"></i>Edit</button>
+				<button class="btn" id="delete"><i class="fa fa-trash"></i>Delete</button>
+			</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>himaljoshi@gmail.com</td>
+			<td>hungryhour125</td>
+			<td><button class="btn" id="edit"><i class="fa fa-pencil"></i>Edit</button>
+				<button class="btn" id="delete"><i class="fa fa-trash"></i>Delete</button>
+			</td>
+		  </tr>
+      </table>
+</div>
+</body>
+</html>
